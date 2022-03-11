@@ -12,6 +12,9 @@ public class Main {
 
         System.out.println("Thomas er ikke CEO, han er rengøringsdame");
     }
+    public void tester(){
+        System.out.println("TEst");
+    }
 
 
     public static void main(String[] args) {
@@ -19,6 +22,7 @@ public class Main {
         Main obj = new Main();
         obj.test();
         obj.test2();
+        obj.tester();
 
         Main obj = new Main();
         obj.test3();
