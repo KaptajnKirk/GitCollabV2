@@ -5,10 +5,20 @@ public class Main {
         System.out.println("Tester3");
     }
 
+    public void test2(){
+        System.out.println("Theo er n00b");
+    }
+    public void test () {
+
+        System.out.println("Thomas er ikke CEO, han er rengøringsdame");
+    }
+
+
     public static void main(String[] args) {
 
-        System.out.println("Hva så, røvhuller?");
-        System.out.println("Fuckedi Fuck Fuck Fuck");
+        Main obj = new Main();
+        obj.test();
+        obj.test2();
 
         Main obj = new Main();
         obj.test3();
