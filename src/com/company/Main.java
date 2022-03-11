@@ -2,10 +2,21 @@ package com.company;
 
 public class Main {
 
+
+    public void test () {
+
+        System.out.println("Thomas er ikke CEO, han er rengøringsdame");
+    }
+
     public static void main(String[] args) {
 
-        System.out.println("Hva så, røvhuller?");
-        System.out.println("Fuckedi Fuck Fuck Fuck");
+        Main obj = new Main();
+        obj.test();
+
+
+
 
     }
+
+
 }
