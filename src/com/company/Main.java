@@ -16,15 +16,15 @@ public class Main {
         System.out.println("TEst");
     }
 
+    public void tester2(){
+        System.out.println("test est esttdiuasdgfasdgflkasdghfaksdgh");
+    }
+
 
     public static void main(String[] args) {
 
         Main obj = new Main();
-        obj.test();
-        obj.test2();
-        obj.tester();
-
-        Main obj = new Main();
         obj.test3();
+        obj.tester2();
     }
 }
